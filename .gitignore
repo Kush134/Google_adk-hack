@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.claude/
+.history/
+
+# Claude Code configuration
+CLAUDE.md
+.clauderc
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Output files (test results)
+decisions.json
+decisions/
+*.log
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Google credentials
+google_credentials.json
+*credentials*.json
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Trending data pipeline outputs and temp files
+trend_research_pipeline/.temp/
+trend_data/*.json
+!trend_data/README.md
+*.png
+debug_*.png
+tweet_engagement_cache/

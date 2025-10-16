@@ -1,0 +1,22 @@
+[project]
+name = "agents-of-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "apify-client>=2.1.0",
+    "browserbase>=1.4.0",
+    "google-adk[ui]>=1.16.0",
+    "google-generativeai>=0.8.5",
+    "json-repair>=0.52.0",
+    "playwright>=1.55.0",
+    "python-dotenv>=1.1.1",
+    "schedule>=1.2.2",
+    "tavily-python>=0.7.12",
+    "tweepy>=4.16.0",
+    "weave>=0.52.9",
+]
+
+[tool.setuptools]
+packages = ["generate_image", "hr_validation_agent", "image_caption_agent", "video_generation_agent"]

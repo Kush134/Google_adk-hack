@@ -1,0 +1,24 @@
+{
+  "iteration": 0,
+  "timestamp": "2025-10-11T16:08:00.657006",
+  "selected_candidate": {
+    "text": "AI agents가 바꾸는 워크플로우로 팀을 자동화하는 방법",
+    "media_prompt": "3D isometric illustration of AI agents가 바꾸는 워크플로우, modern tech aesthetic, vibrant colors",
+    "mode": "gif",
+    "expected_engagement": 0.76,
+    "scores": {
+      "clarity": 0.9,
+      "novelty": 0.8,
+      "shareability": 0.85,
+      "credibility": 0.89,
+      "safety": 0.96,
+      "overall": 0.86
+    }
+  },
+  "predicted_score": 0.86,
+  "engagement": {
+    "likes": 0,
+    "reposts": 0,
+    "comments": 0
+  }
+}
